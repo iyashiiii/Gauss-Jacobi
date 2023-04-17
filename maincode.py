@@ -16,7 +16,7 @@ b = [0]
 c = [0]
 
 #i=0
-
+										#NOTE: i-alter din yung code pag may negative sa first term kasi magiging 4 yung len ng op
 def fa():
 	i=0
 	while True:
@@ -27,6 +27,17 @@ def fa():
 
 		if [a[i],b[i],c[i]] == [a[i-1],b[i-1],c[i-1]]:
 			break
+'''
+def ayokona():
+for i in op:
+	while i != '='
+		if i == '+':
+			ans1 = int(-(xyz[op.index('+')+1])) * b[i]
+		if i == '-':
+			ans2 = int(xyz[op.index('-')+1]) * c[i]
+	finans = (ans1 + ans2 + eq) / xyz[0]
+'''
+
 
 
 fa()
