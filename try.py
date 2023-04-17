@@ -31,10 +31,14 @@ for i in xyz[::-1]:
 
 xyz  = ''.join(xyz).split()
 
-#for i in op:
-  #if '*' in op:
-      
-
+def final():
+	for i in op:
+		if '*' in op:
+			yield int(xyz[op.index('*')]) * int(xyz[op.index('*')+1])
+		elif '+' in op:
+			yield last.append(int(xyz[op.index(i)]) + int(xyz[op.index(i)+1]))
+		elif '-' in op:
+			yield last.append(int(xyz[op.index(i)]) - int(xyz[op.index(i)+1]))
 
        
 
